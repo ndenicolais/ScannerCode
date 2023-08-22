@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="lightsurface">#FFFFFFFF</color>
+    <color name="lightyellow">#FFFFF3E0</color>
+    <color name="darkyellow">#FFFFD152</color>
+    <color name="darksurface">#FF3C3E4B</color>
+    <color name="lightgrey">#FFCECECE</color>
+    <color name="darkgrey">#FF3C3E4B</color>
+    <color name="lighttext">#FFBEB083</color>
+    <color name="darktext">#FF852E2E</color>
+</resources>
