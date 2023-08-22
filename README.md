@@ -28,12 +28,34 @@ Jetpack Compose
 ```
 com.denicks21.scannercode       # ROOT PACKAGE
 │
+├── data                        # DATA FOLDER
+|   ├── DataSourceModule        # Inject repository in the ScanLDS.
+|   ├── RepositoryModule        # Inject repository in the ScanRepository.
+|   ├── ScanLDS                 # Manages the device’s camera for scanning codes.
+|   ├── ScanMapper              # Scan object conversion.
+|   ├── ScanRepository          # Repository operations.
+|   ├── ScanRepositoryImpl      # ScanRepository implementation.
+|
+├── model                       # MODEL FOLDER
+|   ├── Scan                    # Scan model.
+|
+├── navigation                  # NAVIGATION FOLDER
+│   ├── NavGraph                # Contains all of app destinations and actions.
+│   └── NavScreens              # Contains a sealed class with object corresponds to a screen and its routes.
+|
+├── scanner                     # SCANNER FOLDER
+│   ├── ScannerEvent            # Class representing events related to the QR code/barcode scanning functionality.
+│   └── ScannerPage             # Scan main page.
+│   └── ScannerUiState          # Class representing the state of the user interface associated with the QR/barcode code scanning feature.
+│   └── ScannerViewModel        # Scan ViewModel.
+|
 ├── ui                          # UI FOLDER
 │   ├── theme                   # THEME FOLDER
 |   │   ├── Color               # Color palette used by the app.
 |   │   ├── Shape               # Components shapes of Compose used by the app.
 |   │   ├── Theme               # Theme used by the app.
 |   │   ├── Type                # Typography styles for the fonts used by the app.
+|
 │   ├── components              # COMPONENTS FOLDER
 |   │   ├── CameraDialog        # .
 |   │   ├── ScanSheet           # .
