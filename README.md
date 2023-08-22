@@ -57,13 +57,13 @@ com.denicks21.scannercode       # ROOT PACKAGE
 |   │   ├── Type                # Typography styles for the fonts used by the app.
 |
 │   ├── components              # COMPONENTS FOLDER
-|   │   ├── CameraDialog        # .
-|   │   ├── ScanSheet           # .
+|   │   ├── CameraDialog        # Dialog to request Camera permission.
+|   │   ├── ScanSheet           # Scan component design.
 |   │   ├── TopBar              # Bar that represent the app name and drawer menu.
 |
 ├── MainActivity                # Main activity
-├── ScannerApp                  # 
-├── ScannerApplication          # 
+├── ScannerApp                  # Scanner main navigation.
+├── ScannerApplication          # Trigger Hilt's code generation.
 ```
 
 ## 📎 Screenshots
