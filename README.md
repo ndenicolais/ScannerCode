@@ -62,6 +62,8 @@ com.denicks21.scannercode       # ROOT PACKAGE
 |   │   ├── TopBar              # Bar that represent the app name and drawer menu.
 |
 ├── MainActivity                # Main activity
+├── ScannerApp                  # 
+├── ScannerApplication          # 
 ```
 
 ## 📎 Screenshots
