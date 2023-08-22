@@ -29,7 +29,7 @@ import androidx.compose.ui.viewinterop.AndroidView
 import androidx.core.content.ContextCompat
 import androidx.hilt.navigation.compose.hiltViewModel
 import com.denicks21.scannercode.R
-import com.denicks21.scannercode.ui.components.CameraRequiredDialog
+import com.denicks21.scannercode.ui.components.CameraDialog
 import com.denicks21.scannercode.ui.components.ScanSheet
 import com.denicks21.scannercode.ui.components.TopBar
 import com.denicks21.scannercode.ui.theme.BottomSheetShape
@@ -91,7 +91,7 @@ fun ScannerPage(
     }
 
     if (uiState.showCameraRequiredDialog) {
-        CameraRequiredDialog(
+        CameraDialog(
             onContinue = {
                 viewModel.onEvent(ScannerEvent.CameraRequiredDialogVisibility(show = false))
                 permissionLauncher.launch(Manifest.permission.CAMERA)

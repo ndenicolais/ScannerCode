@@ -1,32 +1,32 @@
 <resources>
     <string name="app_name">Scanner Code</string>
 
-    <!-- Schermata di scansione -->
-    <string name="scan_message">Inquadra un codice QR o a barre</string>
-    <string name="scan_share_value">Condividi contenuto</string>
-    <string name="scan_value_copied">Contenuto copiato</string>
+    <!-- Scan screen -->
+    <string name="scan_message">Frame a QR or bar code</string>
+    <string name="scan_share_value">Share content</string>
+    <string name="scan_value_copied">Content copied</string>
 
-    <!-- Pannello di scansione inferiore -->
-    <string name="scan_sheet_web_action">Sito web</string>
+    <!-- Bottom scan panel -->
+    <string name="scan_sheet_web_action">Website</string>
 
-    <!-- Dialogo richiesta fotocamera -->
-    <string name="camera_required_message">L applicazione richiede l autorizzazione alla fotocamera per funzionare.</string>
-    <string name="camera_required_continue_btn">Continua</string>
-    <string name="camera_required_exit_btn">Esci</string>
+    <!-- Camera request dialog -->
+    <string name="camera_required_message">The application requires permission to the camera to work.</string>
+    <string name="camera_required_continue_btn">Continue</string>
+    <string name="camera_required_exit_btn">Exit</string>
 
-    <!-- Formati di scansione -->
-    <string name="scan_format_qr_code">Codice QR</string>
-    <string name="scan_format_aztec">Codice Aztec</string>
-    <string name="scan_format_data_matrix">Codice Matrice dati</string>
-    <string name="scan_format_pdf">Codice PDF417</string>
-    <string name="scan_format_barcode">Codice a barre</string>
-    <string name="scan_format_code_128">Codice a barre (128)</string>
-    <string name="scan_format_code_93">Codice a barre (93)</string>
-    <string name="scan_format_code_39">Codice a barre (39)</string>
-    <string name="scan_format_ean_13">Codice a barre EAN-13</string>
-    <string name="scan_format_ean_8">Codice a barre EAN-8</string>
-    <string name="scan_format_itf">Codice a barre ITF</string>
-    <string name="scan_format_upc_a">Codice a barre UPC-A</string>
-    <string name="scan_format_upc_e">Codice a barre UPC-E</string>
-    <string name="scan_format_unknown">Codice</string>
+    <!-- Scan format -->
+    <string name="scan_format_qr_code">QR code</string>
+    <string name="scan_format_aztec">Aztec code</string>
+    <string name="scan_format_data_matrix">Data matrix code</string>
+    <string name="scan_format_pdf">PDF417 code</string>
+    <string name="scan_format_barcode">Barcode</string>
+    <string name="scan_format_code_128">Barcode (128)</string>
+    <string name="scan_format_code_93">Barcode (93)</string>
+    <string name="scan_format_code_39">Barcode (39)</string>
+    <string name="scan_format_ean_13">Barcode EAN-13</string>
+    <string name="scan_format_ean_8">Barcode EAN-8</string>
+    <string name="scan_format_itf">Barcode ITF</string>
+    <string name="scan_format_upc_a">Barcode UPC-A</string>
+    <string name="scan_format_upc_e">Barcode UPC-E</string>
+    <string name="scan_format_unknown">Code</string>
 </resources>

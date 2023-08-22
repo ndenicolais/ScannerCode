@@ -17,7 +17,7 @@ import androidx.compose.ui.window.DialogProperties
 import com.denicks21.scannercode.R
 
 @Composable
-fun CameraRequiredDialog(
+fun CameraDialog(
     onContinue: () -> Unit,
     onExit: () -> Unit
 ) {
