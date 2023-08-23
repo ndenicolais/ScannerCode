@@ -21,9 +21,9 @@ Click Run to start the project on the selected device.
 
 ## 🛠️ Built with
 Kotlin</br>
-Jetpack Compose
-Dagger Hilt
-Camera X
+Jetpack Compose</br>
+Dagger Hilt</br>
+Camera X</br>
 ML Scanning
 
 ## 📚 Package Structure
