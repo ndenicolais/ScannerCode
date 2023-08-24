@@ -66,7 +66,7 @@ com.denicks21.scannercode       # ROOT PACKAGE
 |
 ├── MainActivity                # Main activity
 ├── ScannerApp                  # Scanner main navigation.
-├── ScannerApplication          # Trigger Hilt's code generation.
+├── ScannerApplication          # Trigger Hilt's code generation. 
 ```
 
 ## 📎 Screenshots
