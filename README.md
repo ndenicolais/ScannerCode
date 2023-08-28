@@ -21,7 +21,10 @@ Click Run to start the project on the selected device.
 
 ## 🛠️ Built with
 Kotlin</br>
-Jetpack Compose
+Jetpack Compose</br>
+Dagger Hilt</br>
+Camera X</br>
+ML Scanning
 
 ## 📚 Package Structure
 
@@ -63,7 +66,7 @@ com.denicks21.scannercode       # ROOT PACKAGE
 |
 ├── MainActivity                # Main activity
 ├── ScannerApp                  # Scanner main navigation.
-├── ScannerApplication          # Trigger Hilt's code generation.
+├── ScannerApplication          # Trigger Hilt's code generation. 
 ```
 
 ## 📎 Screenshots
